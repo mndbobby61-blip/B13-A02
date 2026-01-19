@@ -191,3 +191,76 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+
+.techwave{
+    padding: 120px 200px;
+}
+.techwave-container{
+    max-width: 1600px;
+    margin: auto;
+}
+.techwave-container h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.grid{
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+}
+.card-1{
+    grid-row: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.card-2{
+    grid-column: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    
+}
+.card-3{
+    grid-column: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.card-4{
+    grid-column: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.card-5{
+    grid-row: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.card-1 p, .card-2 p, .card-3 p, .card-4 p, .card-5 p{
+    color: #666666f1;
+    font-style: regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-1 h3, .card-2 h3, .card-3 h3, .card-4 h3, .card-5 h3{
+    color: var(--#ffffff, rgb(255, 255, 255, 1));
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+}
